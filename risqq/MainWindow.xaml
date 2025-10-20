@@ -173,7 +173,7 @@
                         Text="Session Duration"
                         TextAlignment="Center" />
                     <TextBlock
-                        x:Name="SessionDurationText"
+                        x:Name="SessionDuration"
                         Margin="0,5,0,0"
                         Style="{StaticResource ValueLabel}"
                         Text="00:00:00"
@@ -187,7 +187,7 @@
                         Text="Actions"
                         TextAlignment="Center" />
                     <TextBlock
-                        x:Name="ClickCountText"
+                        x:Name="ActionCount"
                         Margin="0,5,0,0"
                         Style="{StaticResource ValueLabel}"
                         Text="0"
@@ -201,7 +201,7 @@
                         Text="Next Break In"
                         TextAlignment="Center" />
                     <TextBlock
-                        x:Name="NextActionText"
+                        x:Name="NextBreak"
                         Margin="0,5,0,0"
                         Style="{StaticResource ValueLabel}"
                         Text="--"
@@ -243,7 +243,7 @@
 
         </StackPanel>
 
-        <!--  footer (autoclick, settings, logs)  -->
+        <!--  footer (autoclick & settings)  -->
         <Border
             Grid.Row="3"
             Margin="0,10,0,0"
@@ -251,12 +251,6 @@
             Background="White">
             <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
 
-                <Button
-                    x:Name="LogButton"
-                    Margin="0,0,10,0"
-                    Click="LogButton_Click"
-                    Content="📄 Logs"
-                    Style="{StaticResource FooterButton}" />
 
                 <Button
                     x:Name="AutoclickButton"

@@ -1,60 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\",
+  "WorkspaceRootPath": "C:\\Users\\sthyt\\source\\repos\\rsiq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\services\\riskcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\riskcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\services\\inputmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\inputmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\services\\breakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\breakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\services\\autoclickservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\autoclickservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\services\\breakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\breakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\services\\autoclickservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\autoclickservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\services\\riskcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\riskcalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\services\\inputmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\services\\inputmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\onedrive\\ty\u00F6p\u00F6yt\u00E4\\projects\\risqq\\risqq\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|c:\\users\\sthyt\\source\\repos\\rsiq\\risqq\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{05A8386F-2F23-401B-A8B2-885370E99471}|risqq\\risqq.csproj|solutionrelative:risqq\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -65,8 +61,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RiskCalculationService.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\RiskCalculationService.cs",
+              "RelativeDocumentMoniker": "risqq\\Services\\RiskCalculationService.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\RiskCalculationService.cs*",
+              "RelativeToolTip": "risqq\\Services\\RiskCalculationService.cs*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:51:35.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "risqq\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\MainWindow.xaml.cs",
+              "RelativeToolTip": "risqq\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAIA6wGcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:36:35.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "risqq\\SettingsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "risqq\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:24:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "risqq\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\MainWindow.xaml",
+              "RelativeToolTip": "risqq\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T11:08:48.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InputMonitorService.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\InputMonitorService.cs",
+              "RelativeDocumentMoniker": "risqq\\Services\\InputMonitorService.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\InputMonitorService.cs",
+              "RelativeToolTip": "risqq\\Services\\InputMonitorService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:53:26.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSettings.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Models\\UserSettings.cs",
+              "RelativeDocumentMoniker": "risqq\\Models\\UserSettings.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Models\\UserSettings.cs",
+              "RelativeToolTip": "risqq\\Models\\UserSettings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAABRwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:53:49.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BreakService.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\BreakService.cs",
+              "RelativeDocumentMoniker": "risqq\\Services\\BreakService.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\BreakService.cs",
+              "RelativeToolTip": "risqq\\Services\\BreakService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:53:38.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "risqq\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\DataService.cs",
+              "RelativeToolTip": "risqq\\Services\\DataService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:48:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoclickService.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\AutoclickService.cs",
+              "RelativeDocumentMoniker": "risqq\\Services\\AutoclickService.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\Services\\AutoclickService.cs",
+              "RelativeToolTip": "risqq\\Services\\AutoclickService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T10:05:25.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "risqq\\SettingsWindow.xaml",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\SettingsWindow.xaml",
+              "RelativeToolTip": "risqq\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T15:20:54.841Z"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -74,10 +210,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -89,154 +221,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAPsUAAAAAAAAAAAuwAcVAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-10-16T17:25:03.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataService.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\DataService.cs",
-              "RelativeDocumentMoniker": "risqq\\Services\\DataService.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\DataService.cs",
-              "RelativeToolTip": "risqq\\Services\\DataService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T12:48:51.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserSettings.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Models\\UserSettings.cs",
-              "RelativeDocumentMoniker": "risqq\\Models\\UserSettings.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Models\\UserSettings.cs",
-              "RelativeToolTip": "risqq\\Models\\UserSettings.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:53:49.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Models\\Session.cs",
-              "RelativeDocumentMoniker": "risqq\\Models\\Session.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Models\\Session.cs",
-              "RelativeToolTip": "risqq\\Models\\Session.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:53:45.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SettingsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\SettingsWindow.xaml",
-              "RelativeDocumentMoniker": "risqq\\SettingsWindow.xaml",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\SettingsWindow.xaml",
-              "RelativeToolTip": "risqq\\SettingsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-14T15:20:54.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "risqq\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\MainWindow.xaml.cs",
-              "RelativeToolTip": "risqq\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:36:35.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SettingsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\SettingsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "risqq\\SettingsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\SettingsWindow.xaml.cs",
-              "RelativeToolTip": "risqq\\SettingsWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T16:24:35.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "risqq\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\MainWindow.xaml",
-              "RelativeToolTip": "risqq\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-14T11:08:48.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BreakService.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\BreakService.cs",
-              "RelativeDocumentMoniker": "risqq\\Services\\BreakService.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\BreakService.cs",
-              "RelativeToolTip": "risqq\\Services\\BreakService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:53:38.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutoclickService.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\AutoclickService.cs",
-              "RelativeDocumentMoniker": "risqq\\Services\\AutoclickService.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\AutoclickService.cs",
-              "RelativeToolTip": "risqq\\Services\\AutoclickService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:05:25.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RiskCalculationService.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\RiskCalculationService.cs",
-              "RelativeDocumentMoniker": "risqq\\Services\\RiskCalculationService.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\RiskCalculationService.cs",
-              "RelativeToolTip": "risqq\\Services\\RiskCalculationService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:51:35.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InputMonitorService.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\InputMonitorService.cs",
-              "RelativeDocumentMoniker": "risqq\\Services\\InputMonitorService.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\Services\\InputMonitorService.cs",
-              "RelativeToolTip": "risqq\\Services\\InputMonitorService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:53:26.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\App.xaml",
               "RelativeDocumentMoniker": "risqq\\App.xaml",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\App.xaml",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\App.xaml",
               "RelativeToolTip": "risqq\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-13T10:36:51.804Z",
@@ -244,11 +245,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "risqq\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\sthyt\\OneDrive\\Ty\u00F6p\u00F6yt\u00E4\\Projects\\risqq\\risqq\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\AssemblyInfo.cs",
               "RelativeToolTip": "risqq\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sthyt\\OneDrive\\Työpöytä\\Projects\\risqq\\risqq\\risqq.csproj": {}
+    "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\risqq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sthyt\\OneDrive\\Työpöytä\\Projects\\risqq\\risqq\\risqq.csproj": {
+    "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\risqq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sthyt\\OneDrive\\Työpöytä\\Projects\\risqq\\risqq\\risqq.csproj",
+        "projectUniqueName": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\risqq.csproj",
         "projectName": "risqq",
-        "projectPath": "C:\\Users\\sthyt\\OneDrive\\Työpöytä\\Projects\\risqq\\risqq\\risqq.csproj",
+        "projectPath": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\risqq.csproj",
         "packagesPath": "C:\\Users\\sthyt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sthyt\\OneDrive\\Työpöytä\\Projects\\risqq\\risqq\\obj\\",
+        "outputPath": "C:\\Users\\sthyt\\source\\repos\\rsiq\\risqq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,10 +51,6 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[6.1.2, )"
-            },
             "MouseKeyHook": {
               "target": "Package",
               "version": "[5.7.1, )"
@@ -79,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

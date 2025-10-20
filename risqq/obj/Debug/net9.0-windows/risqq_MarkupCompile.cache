@@ -4,16 +4,16 @@
 exe
 C#
 .cs
-C:\Users\sthyt\OneDrive\Työpöytä\Projects\risqq\risqq\obj\Debug\net9.0-windows\
+C:\Users\sthyt\Source\Repos\rsiq\risqq\obj\Debug\net9.0-windows\
 risqq
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\sthyt\OneDrive\Työpöytä\Projects\risqq\risqq\App.xaml
+C:\Users\sthyt\Source\Repos\rsiq\risqq\App.xaml
 2-2121854466
 
-12-110247905
-2291444981439
+1131121896
+210-1118589858
 MainWindow.xaml;SettingsWindow.xaml;
 
 False

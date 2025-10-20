@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace risqq
+namespace risqq.Services
 {
-
-    internal class Session
+    internal class NotificationService
     {
-        
     }
-
 }

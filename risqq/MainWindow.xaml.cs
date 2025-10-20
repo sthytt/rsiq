@@ -20,6 +20,7 @@ namespace risqq
 
             _inputMonitor.InputDetected += OnInputDetected;
             _riskCalculator.RiskLevelChanged += RiskLevelIndicator;
+            _riskCalculator.ActionCountChanged += UpdateActionCount;
         }
         private void OnInputDetected(object sender, EventArgs e)
         {
@@ -28,7 +29,7 @@ namespace risqq
                 _riskCalculator.IncreaseRisk();
             }
 
-            Console.WriteLine(_riskCalculator.TotalRisk)  ;
+            Console.WriteLine(_riskCalculator.totalRisk)  ;
         }
 
         private void SessionButton_Click(object sender, RoutedEventArgs e)
@@ -38,10 +39,10 @@ namespace risqq
 
             if (!_sessionActive)
             {
+                _sessionActive = true;
                 _inputMonitor.StartMonitoring();
                 _riskCalculator.StartTimer();
                 SessionButton.Content = "Pause";
-                _sessionActive = true;
             }
             else
             {
@@ -55,7 +56,7 @@ namespace risqq
 
         public void RiskLevelIndicator(object sender, EventArgs e)
         {
-            switch (_riskCalculator.TotalRisk)
+            switch (_riskCalculator.totalRisk)
             {
                 case <= 20:
                     RiskIndicator.Stroke = System.Windows.Media.Brushes.Green;
@@ -72,6 +73,17 @@ namespace risqq
             }
         }
 
+        public void UpdateActionCount(object sender, EventArgs e)
+        {
+            if (_riskCalculator.actionCount < 500)
+            {
+                ActionCount.Text = _riskCalculator.actionCount.ToString();
+            }
+            else
+            {
+                ActionCount.Text = "500+";
+            }
+        }
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
             SettingsWindow settingsWindow = new SettingsWindow();
@@ -90,9 +102,11 @@ namespace risqq
                 _inputMonitor.StopMonitoring();
                 _riskCalculator.ResetTimer();
                 _riskCalculator.ResetRisk();
+                _riskCalculator.ResetActions();
                 RiskIndicator.Stroke = System.Windows.Media.Brushes.Gray;
                 _sessionActive = false;
                 SessionButton.Content = "Start";
+                ActionCount.Text = "0";
                 AbortButton.IsEnabled = false;
                 AbortButton.Visibility = Visibility.Hidden;
             }

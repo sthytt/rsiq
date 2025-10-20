@@ -17,73 +17,59 @@ namespace risqq
     public partial class SettingsWindow : Window
     {
         private DataService _dataService;
+        private UserSettings _userSettings;
 
         public SettingsWindow()
         {
             InitializeComponent();
             _dataService = new DataService();
+            _userSettings = new UserSettings();
             LoadSettings();
 
         }
 
         private async void LoadSettings()
         {
-            await _dataService.LoadUserSettingsAsync();
+            try
+            {
+                _userSettings = await _dataService.LoadUserSettingsAsync();
+                // update UI
+                BreakDurationSlider.Value = _userSettings.BreakDuration.TotalMinutes;
+                TimeBetweenBreaksSlider.Value = _userSettings.TimeBetweenBreaks.TotalMinutes;
+                PostponeDurationSlider.Value = _userSettings.PostponeTime.TotalMinutes;
+
+                NotificationsOnRadio.IsChecked = _userSettings.EnableNotifications;
+                NotificationsOffRadio.IsChecked = !_userSettings.EnableNotifications;
+
+                BreaksOnRadio.IsChecked = _userSettings.EnableBreaks;
+                BreaksOffRadio.IsChecked = !_userSettings.EnableBreaks;
+
+                // sound selected here
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Settings not loaded. Error: {ex.Message}");
+            }
         }
 
-        private void BackButton_Click(object sender, RoutedEventArgs e)
+        private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            _userSettings.BreakDuration = TimeSpan.FromMinutes(BreakDurationSlider.Value);
+            _userSettings.TimeBetweenBreaks = TimeSpan.FromMinutes(TimeBetweenBreaksSlider.Value);
+            _userSettings.PostponeTime = TimeSpan.FromMinutes(PostponeDurationSlider.Value);
+
+            _userSettings.EnableNotifications = NotificationsOnRadio.IsChecked == true;
+            _userSettings.EnableBreaks = BreaksOnRadio.IsChecked == true;
+
+            await _dataService.SaveUserSettingsAsync(_userSettings);
+
+            MessageBox.Show("Settings saved!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             this.Close();
-        }
-
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
-        {
-            // Save all settings
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            // Close window without saving
-        }
-
-        private void BreakDurationSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            // Handle break duration change
-        }
-
-        private void TimeBetweenBreaksSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            // Handle time between breaks change
-        }
-
-        private void PostponeDurationSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            // Handle postpone duration change
-        }
-
-        private void NotificationsOnRadio_Checked(object sender, RoutedEventArgs e)
-        {
-            // Handle notifications enabled
-        }
-
-        private void NotificationsOffRadio_Checked(object sender, RoutedEventArgs e)
-        {
-            // Handle notifications disabled
-        }
-
-        private void BreaksOnRadio_Checked(object sender, RoutedEventArgs e)
-        {
-            // Handle breaks enabled
-        }
-
-        private void BreaksOffRadio_Checked(object sender, RoutedEventArgs e)
-        {
-            // Handle breaks disabled
-        }
-
-        private void NotificationSoundComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            // Handle notification sound selection change
+            this.Close();
         }
     }
 }

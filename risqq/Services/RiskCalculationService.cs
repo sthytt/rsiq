@@ -12,13 +12,15 @@ namespace risqq
 {
     class RiskCalculationService
     {
-        public int TotalRisk { get; private set; }
+        public int actionCount { get; private set; }
+        public int totalRisk { get; private set; }
 
-        public int TimeElapsed { get; private set; }
+        public int timeElapsed { get; private set; }
 
         private System.Timers.Timer _riskTimer;
 
         public event EventHandler RiskLevelChanged;
+        public event EventHandler ActionCountChanged;
 
         public void SetTimer()
         {
@@ -52,14 +54,14 @@ namespace risqq
 
         public void ResetRisk()
         {
-            TotalRisk = 0;
+            totalRisk = 0;
             RiskLevelChanged?.Invoke(this, EventArgs.Empty);
         }
 
 
         public void ResetTimer()
         {
-            TimeElapsed = 0;
+            timeElapsed = 0;
             _riskTimer.Stop();
             _riskTimer.Dispose();
             _riskTimer = null;
@@ -67,22 +69,38 @@ namespace risqq
 
         public void IncreaseRisk()
         {
-            if (TotalRisk <= 99) 
+            if (totalRisk <= 99) 
             { 
-                TotalRisk += 1;
+                totalRisk += 1;
             }
+            CountActions();
 
             RiskLevelChanged?.Invoke(this, EventArgs.Empty);
         }
         
         private void DecreaseRisk()
         {
-            if (TotalRisk >= 2)
+            if (totalRisk >= 2)
             {
-                TotalRisk -= 3;
+                totalRisk -= 3;
             }
 
             RiskLevelChanged?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void CountActions()
+        {
+            if (actionCount < 500)
+            {
+                actionCount += 1;
+                ActionCountChanged?.Invoke(this, EventArgs.Empty);
+            }
+        }
+
+        public void ResetActions()
+        {
+            actionCount = 0;
+            ActionCountChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }
